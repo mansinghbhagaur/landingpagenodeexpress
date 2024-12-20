@@ -24,7 +24,7 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/", (req,res)=> {
-    res.send("hello everyone");
+    res.send("hello everyone !");
 })
 
 app.get("*", (req,res)=> {
