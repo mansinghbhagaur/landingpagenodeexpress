@@ -15,6 +15,7 @@ hbs.registerPartials(partialPath);
 
 app.use(express.static(staticPath));
 
+
 app.get("/", (req, res) => {
   res.render("index", {
     chanel: " man",
