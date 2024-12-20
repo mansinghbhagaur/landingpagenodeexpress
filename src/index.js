@@ -24,7 +24,7 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/", (req,res)=> {
-    res.send("hello everyone nurul shavi");
+    res.send("hello everyone how are you sir");
 })
 
 app.get("*", (req,res)=> {
